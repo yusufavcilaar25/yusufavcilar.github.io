@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+#logo-iconu{
+    margin: auto;
+    width: 250px;
+    height: 75px;
+}
+#container{
+    margin: auto;
+    width: 100%;
+    height: 3959px;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+#logo{
+    margin: auto;
+    width: 400px;
+    height: 100px;
+    margin-left: 250px;
+    float: left;
+}
+#arama{
+    
+}
+#logo-resmi{
+    margin: auto;
+    width: 400px;
+    height: 100px;
+}
+nav{
+    margin: auto;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav ul li{ 
+    display: block;
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+}
+nav ul li a{
+    margin: auto;
+    float: left;
+    text-decoration: none;
+    color: white;
+    margin-top: 6.5px;
+    margin-left: 280px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    left: 0;
+    right: 0;
+}
+nav ul li a:hover{
+    transition: 0.35s ease-in-out;
+    color: #00D172;
+}
+nav ul li a::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: #00D172;
+    display: block;
+    transition: 0.35s ease-in-out;
+}
+nav ul li a:hover::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #00D172;
+    display: block;
+}
+section{
+    margin: auto;
+    width: 100%;
+    height: 2210px;
+}
+footer{
+    margin: auto;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    background-color: black;
+    position: relative;
+    float: right;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+    height: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container a{
+    text-decoration: none;
+}
+.container h2{
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+.container a h3{
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #cecece;
+}
+.container a h3:hover{
+    transition: 0.35s ease-in-out;
+    color: white;
+}
+.container .row #sirket p{
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 25px;
+    color: #cecece;
+}
+.container .row #sirket #destek{
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 25px;
+    color: white;
+}
+.container .row #sirket #iyi-gunler{
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 25px;
+    color: #00D172;
+}
+#kurumsal{
+    margin-left: 250px;
+}
+#kurumsal .iletisim-bilgileri, .iletisim-detaylari i{
+    color: #cecece;
+}
+#kurumsal .iletisim-bilgileri, .iletisim-detaylari i:hover{
+    color: white;
+}
+#sirket{
+    margin: auto;
+    width: 575px;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.row{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col{
+    min-width: 250px;
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    padding: 0 2rem;
+    color: black;
+}
+.col .logo{
+    width: 400px;
+    height: 100px;
+    margin-top: 25px;
+}
+.col h2{
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+    color: #00D172;
+}
+.col h2::after{
+    content: '';
+    width: 0px;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+    background-color: #00D172;
+    margin-top: 10px;
+}
+.col h2:hover::after{
+    width: 250px;
+}
+#iletisim-bilgileri p{
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 25px;
+    color: #cecece;
+}
+#iletisim-bilgileri h3{
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 25px;
+    color: #cecece;
+}
+#iletisim-bilgileri h3:hover{
+    color: white;
+}
+#kaydol{
+    color: #fff;
+    background-color: black;
+}
+#copyright{
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #cecece;
+}
+#copyright:hover{
+    color: white;
+}
